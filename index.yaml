@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  dbox-nextjs:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-22T14:37:47.034806+07:00"
+    description: A NextJS Helm chart for Kubernetes
+    digest: 1bd922ab72302cc75951518b2635cb606141b41b07785a344768932fc354787e
+    name: dbox-nextjs
+    type: application
+    urls:
+    - https://duanhdan.github.io/helm-chart/dbox-nextjs-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-22T14:37:47.03365+07:00"
