@@ -1,0 +1,17 @@
+replicaCount: 2
+image:
+  repository: registry.gitlab.com/drkakao-projects/frontend
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  name: drkakao-frontend-app
+  type: LoadBalancer
+  externalPort: 80
+  internalPort: 3000
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
